@@ -259,4 +259,81 @@ a {
 
 .quote-card {
   border-radius: 14px;
-  border: 1px solid rgba(
+  border: 1px solid rgba}
+
+  /* --------------------------------------------- */
+/* MOBILE POLISH — PROJECTS PAGE */
+/* --------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  /* Header spacing */
+  .header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav ul {
+    gap: 20px;
+  }
+
+  .nav-cta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  /* Projects section */
+  .projects {
+    padding: 40px 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .project-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(6px);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+    margin-top: 14px;
+  }
+
+  .project-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .project-card .btn-secondary {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+}
