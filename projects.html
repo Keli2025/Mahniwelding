@@ -1,51 +1,132 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Projects | Mahni Franklin Welding</title>
+  <title>Projects — Mahni Franklin Welding</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="brand">
-      <img src="assets/Copilot_20260512_090611.png" alt="Mahni Franklin Logo" class="brand-mark-img">
-      <div>
-        <h1>Mahni Franklin Welding</h1>
-        <p>Custom Metal Works</p>
-      </div>
-    </div>
-    <nav class="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html" class="active">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="page">
 
-  <section class="projects">
-    <h2>Recent Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="images/gate-welding.jpg" alt="Decorative Iron Gate">
-        <h3>Decorative Iron Gate</h3>
-        <p>Hand‑forged scrollwork and precision welding for a custom residential entryway.</p>
+    <!-- BACKGROUND -->
+    <div class="background-image"></div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="brand">
+        <img src="assets/Copilot_20260512_090611.png" class="brand-mark-img" alt="Welding logo">
+        <div>
+          <div class="brand-text-main">Mahni Franklin Welding</div>
+          <div class="brand-text-sub">Modern metalwork & fabrication</div>
+        </div>
       </div>
 
-      <div class="project-card">
-        <img src="images/staircase.jpg" alt="Steel Staircase">
-        <h3>Industrial Staircase</h3>
-        <p>Heavy‑duty steel staircase with powder‑coated finish and clean weld seams.</p>
-      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-      <div class="project-card">
-        <img src="images/signage.jpg" alt="Metal Signage">
-        <h3>Custom Metal Signage</h3>
-        <p>Laser‑cut logo signage with brushed aluminum texture and gold accents.</p>
+      <div class="nav-cta">
+        <div class="pill">Mobile welding • Greater New Orleans</div>
+
+        <!-- FIXED CONTACT BUTTON -->
+        <button class="btn-primary"
+          onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+          Request estimate →
+        </button>
       </div>
-    </div>
-  </section>
+    </header>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects">
+      <div class="section-kicker">Portfolio</div>
+      <h2 class="section-title">Recent Work</h2>
+
+      <p class="section-body">
+        A selection of clean, modern metalwork — from architectural railings to custom gates and on‑site repairs.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <img src="https://placehold.co/600x400/1a1a1a/cccccc?text=Railings+Project" alt="Project placeholder">
+          <h3>Modern Steel Railings</h3>
+          <p>Clean, straight welds for a residential staircase with a modern architectural finish.</p>
+          <button class="btn-secondary"
+            onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+            Request estimate →
+          </button>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+          <img src="https://placehold.co/600x400/1a1a1a/cccccc?text=Gate+Fabrication" alt="Project placeholder">
+          <h3>Custom Driveway Gate</h3>
+          <p>Fabricated and installed a powder‑coat‑ready steel gate with clean TIG joints.</p>
+          <button class="btn-secondary"
+            onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+            Request estimate →
+          </button>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+          <img src="https://placehold.co/600x400/1a1a1a/cccccc?text=Aluminum+Work" alt="Project placeholder">
+          <h3>Aluminum Balcony Panels</h3>
+          <p>Lightweight, corrosion‑resistant aluminum panels for a commercial balcony upgrade.</p>
+          <button class="btn-secondary"
+            onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+            Request estimate →
+          </button>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+          <img src="https://placehold.co/600x400/1a1a1a/cccccc?text=On-Site+Repair" alt="Project placeholder">
+          <h3>On‑Site Gate Repair</h3>
+          <p>Mobile welding service to repair and reinforce a damaged commercial entry gate.</p>
+          <button class="btn-secondary"
+            onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+            Request estimate →
+          </button>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project-card">
+          <img src="https://placehold.co/600x400/1a1a1a/cccccc?text=Stainless+Fabrication" alt="Project placeholder">
+          <h3>Stainless Steel Handrails</h3>
+          <p>Polished stainless handrails built for durability and a clean architectural look.</p>
+          <button class="btn-secondary"
+            onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+            Request estimate →
+          </button>
+        </div>
+
+        <!-- PROJECT 6 -->
+        <div class="project-card">
+          <img src="https://placehold.co/600x400/1a1a1a/cccccc?text=Custom+Fabrication" alt="Project placeholder">
+          <h3>Custom Fabrication</h3>
+          <p>One‑off fabrication project built to designer specs with precise alignment.</p>
+          <button class="btn-secondary"
+            onclick="window.location.href='https://keli2025.github.io/Mahniproject/index.html#contact'">
+            Request estimate →
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      © <span>Mahni Franklin Welding</span> — Modern welding & fabrication.
+    </footer>
+
+  </div>
 </body>
 </html>
